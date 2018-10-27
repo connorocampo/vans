@@ -50,6 +50,24 @@ a {
     }
 }
 
+@media screen and (min-width: 1045px) {
+    .open-slide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    .left-toolbar, .right-toolbar {
+        display: none;
+    }
+
+    .toolbar-area {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
 // hero area
 .hero-area li {
     // margin-left: 50px;
