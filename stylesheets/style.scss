@@ -4,16 +4,53 @@
     margin: 0;
     padding: 0;
     font-family: arial;
+    list-style: none;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 // toolbar area
 .toolbar-area {
     height: 300px;
     background-color: #1A1A1A;
-    a{
-        color: #fff;
-        text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    li {
+        list-style: none;
+        display: inline-block;
+        letter-spacing: 1px;
     }
+    a{
+        color: #8D8D8D;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    a:hover {
+        color: #fff;
+    }
+}
+
+.left-toolbar {
+    margin-left: 80px;
+    margin-top: 20px;
+    li {
+        margin: 0 10px;
+    }
+}
+
+.right-toolbar {
+    margin-right: 80px;
+    margin-top: 20px;
+    li {
+        margin: 0 10px;
+    }
+}
+
+// hero area
+.hero-area li {
+    // margin-left: 50px;
 }
