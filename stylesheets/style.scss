@@ -123,6 +123,11 @@ $red: #FF3334;
 
     .open-slide {
         margin-top: 20px;
+        z-index: 40;
+    }
+
+    #side-menu {
+        z-index: 40;
     }
 
     #vans-logo img {
@@ -227,10 +232,12 @@ $red: #FF3334;
 // bottom text
 .bottom-text {
     margin-top: 100px;
-    margin-left: px;
     display: flex;
     justify-content: space-around;
     color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
     hr {
         width: 400px;
         border: 1px solid #fff;
