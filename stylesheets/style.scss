@@ -141,12 +141,12 @@ $red: #FF3334;
 }
 
 .w3-display-left {
-    margin-top: 300px;
+    margin-top: 150px;
     margin-left: -20px;
 }
 
 .w3-display-right {
-    margin-top: 300px;
+    margin-top: 150px;
     margin-right: -20px;
 }
 
@@ -193,6 +193,10 @@ $red: #FF3334;
 
 .hero-nav ul li a:hover {
     color: $grey;
+}
+
+.hero-text p:first-child {
+    margin-top: 100px;
 }
 
 .hero-text p {
