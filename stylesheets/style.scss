@@ -118,6 +118,10 @@ $red: #FF3334;
 
 
 // hero area
+.mySlides {
+    display:none;
+}
+
 .hero-area {
-    background: url("../img/hero.jpg") no-repeat;
+    margin-top: -240px;
 }

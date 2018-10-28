@@ -7,6 +7,7 @@
     <title>Vans Design to Code</title>
     <link rel="stylesheet" href="stylesheets/style.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 <main>
@@ -57,8 +58,15 @@
 
     <!-- hero-area -->
     <div class="hero-area">
-        <i class="fas fa-angle-left"></i>
-        <i class="fas fa-angle-right"></i>
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="https://raw.githubusercontent.com/connorocampo/vans/master/img/hero.jpg" style="width:100%">
+            <img class="mySlides" src="https://raw.githubusercontent.com/connorocampo/vans/master/img/hero-2.jpg" style="width:100%">
+            <img class="mySlides" src="https://raw.githubusercontent.com/connorocampo/vans/master/img/hero-3.jpg" style="width:100%">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
         <div class="hero-nav">
             <ul>
                 <li><a href="#">Products</a></li>
@@ -101,6 +109,27 @@
     </div>
     <!-- /.hero-area -->
 </main>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
 
 <script>
 	function openSlideMenu(){
