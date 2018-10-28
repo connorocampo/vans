@@ -208,4 +208,18 @@ $red: #FF3334;
     font-size: 40px;
     text-transform: uppercase;
     margin-left: 190px;
+    letter-spacing: 3px;;
+}
+
+.hero-text a {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 190px;
+    border: 1px solid $red;
+    background: $red;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Josefin Sans', arial;
+    padding: 15px 30px;
 }
