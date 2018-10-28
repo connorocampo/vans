@@ -223,3 +223,23 @@ $red: #FF3334;
     font-family: 'Josefin Sans', arial;
     padding: 15px 30px;
 }
+
+// bottom text
+.bottom-text {
+    margin-top: 100px;
+    margin-left: px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    hr {
+        width: 400px;
+        border: 1px solid #fff;
+    }
+}
+
+.text-1 {
+    color: $red;
+    hr {
+        border: 1px solid $red;
+    }
+}
