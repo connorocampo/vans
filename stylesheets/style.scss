@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+
 * {
     margin: 0;
     padding: 0;
@@ -178,9 +180,10 @@ $red: #FF3334;
     margin-left: 240px;
     display: flex;
     justify-content: space-evenly;
-    li {
+    a {
         display: inline-block;
         color: #fff;
+        font-family: 'Josefin Sans', arial;
         font-weight: bold;
         font-size: 20px;
         text-transform: uppercase;
@@ -190,4 +193,12 @@ $red: #FF3334;
 
 .hero-nav ul li a:hover {
     color: $grey;
+}
+
+.hero-text p {
+    color: #fff;
+    font-family: 'Josefin Sans', arial;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
 }
