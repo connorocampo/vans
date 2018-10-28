@@ -115,8 +115,12 @@ $red: #FF3334;
         justify-content: space-around;
     }
 
-    .open-slide, #vans-logo {
+    .open-slide {
         margin-top: 20px;
+    }
+
+    #vans-logo img {
+        height: 70px;
     }
 }
 
