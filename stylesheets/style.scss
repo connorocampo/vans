@@ -9,6 +9,9 @@ a {
     text-decoration: none;
 }
 
+$grey: #8D8D8D;
+$red: #FF3334;
+
 
 // toolbar area
 .toolbar-area {
@@ -22,7 +25,7 @@ a {
         letter-spacing: 1px;
     }
     a{
-        color: #8D8D8D;
+        color: $grey;
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
@@ -47,6 +50,14 @@ a {
     li {
         margin: 0 10px;
     }
+}
+
+.fa-shopping-cart, .fa-search {
+    color: #fff;
+}
+
+.pipe {
+    color: $grey;
 }
 
 .side-nav {
