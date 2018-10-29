@@ -132,7 +132,7 @@ $red: #FF3334;
     }
 
     #vans-logo img {
-        height: 70px;
+        height: 75px;
     }
 }
 
@@ -177,14 +177,20 @@ $red: #FF3334;
 @media screen and (max-width: 1045px) {
     .w3-display-left {
         margin-left: 0px;
+        margin-top: auto;
     }
 
     .w3-display-right {
         margin-right: 0px;
+        margin-top: auto;
     }
 
     .w3-display-container {
         min-width: 400px;
+    }
+
+    .hero-nav ul, .hero-text, .bottom-text {
+        display: none !important;
     }
 }
 
