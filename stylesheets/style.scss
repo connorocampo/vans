@@ -399,17 +399,6 @@ section {
     }
 }
 
-// @media screen and (max-width: 1000px) {
-//     .shoe-slider {
-//         background: pink;
-//         a {
-//             margin-left: 34px;
-//         }
-//         p:nth-child(4) {
-//             background: white
-//         }
-// }
-
 @media screen and (max-width: 1000px) {
     section {
         margin-top: 30px;
@@ -420,10 +409,14 @@ section {
     }
     .shoe-slider {
         a {
-            margin-left: 15%;
+            margin-left: 12%;
         }
-        p:nth-child(4) {
-            background: white
+        .title {
+            background: white;
+            margin-left: 2%;
+        }
+        .price {
+            margin-left: 2%;
         }
     }
     .shop-online {
@@ -439,7 +432,6 @@ section {
         width: auto;
 
     }
-
 }
 
 // footer
