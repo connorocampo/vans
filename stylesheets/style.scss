@@ -11,6 +11,7 @@ a {
     text-decoration: none;
 }
 
+$main-black: #1A1A1A;
 $grey: #8D8D8D;
 $red: #FF3334;
 
@@ -227,6 +228,13 @@ $red: #FF3334;
     font-weight: bold;
     font-family: 'Josefin Sans', arial;
     padding: 15px 30px;
+}
+
+.hero-text a:hover {
+    border: 1px solid $main-black;
+    background: $main-black;
+    color: #fff;
+    transition: 0.5s;
 }
 
 // bottom text
