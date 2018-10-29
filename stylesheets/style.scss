@@ -198,7 +198,7 @@ $red: #FF3334;
 }
 
 .hero-nav ul li a:hover {
-    color: $grey;
+    color: $red;
 }
 
 .hero-text p:first-child {
@@ -256,5 +256,23 @@ $red: #FF3334;
     color: $red;
     hr {
         border: 1px solid $red;
+    }
+}
+
+footer {
+    height: 225px;
+    background: $main-black;
+    color: $grey;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    img {
+        margin-top: 60px;
+        width: 150px;
+    }
+    p {
+        margin-top: 10px;
     }
 }
