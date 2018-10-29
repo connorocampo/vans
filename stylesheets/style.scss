@@ -136,6 +136,11 @@ $red: #FF3334;
     }
 }
 
+@media screen and (max-width: 750px) {
+    .toolbar-area {
+        background: linear-gradient(#000 10%, #fff 50%, #fff 100%);
+    }
+}
 
 // hero slider
 .mySlides {
@@ -305,6 +310,15 @@ $red: #FF3334;
 // section
 section {
     height: 800px;
+    margin-top: 90px;
+}
+
+.container {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 
