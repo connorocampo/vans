@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-$main-black: #1A1A1A;
+$main-black: #000000;
 $grey: #8D8D8D;
 $red: #FF3334;
 
@@ -19,7 +19,7 @@ $red: #FF3334;
 // toolbar area
 .toolbar-area {
     height: 430px;
-    background-color: #1A1A1A;
+    background-color: $main-black;
     display: flex;
     justify-content: space-between;
     li {
@@ -237,6 +237,12 @@ $red: #FF3334;
     transition: 0.5s;
 }
 
+@media screen and (max-width: 1045px) {
+    .hero-nav ul {
+        margin-top: 1700px;
+    }
+}
+
 // bottom text
 .bottom-text {
     margin-top: 100px;
@@ -259,6 +265,7 @@ $red: #FF3334;
     }
 }
 
+// footer
 footer {
     height: 225px;
     background: $main-black;
@@ -268,6 +275,7 @@ footer {
     font-weight: bold;
     letter-spacing: 2px;
     margin-top: 100px;
+    margin-bottom: 0;
     img {
         margin-top: 60px;
         width: 150px;
