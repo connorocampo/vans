@@ -344,11 +344,13 @@ section {
     h1 {
     font-weight: bold;
     font-family: 'Josefin Sans', arial;
+    line-height: 38px;
     }
     p:nth-child(2) {
         color: $red;
         font-weight: bold;
         font-family: 'Josefin Sans', arial;
+        font-size: 12px;
     }
     img {
         width: 300px;
@@ -360,13 +362,11 @@ section {
         text-transform: capitalize;
         text-align: left;
         margin-top: -55px;
-        margin-left: 30px;
     }
     .price {
         font-weight: bold;
         color: $red;
         text-align: left;
-        margin-left: 32px;
     }
     .line-through {
         color: $grey;
@@ -377,11 +377,12 @@ section {
         position: absolute;
         font-weight: bold;
         font-family: 'Josefin Sans', arial;
+        font-size: 13px;
         color: #fff;
         background: $red;
         padding: 13px 23px 10px 23px;
-        margin-top: -45px;
-        margin-left: 40px;
+        margin-top: -43px;
+        margin-left: 60px;
     }
     a:hover {
         border: 1px solid $main-black;
