@@ -383,6 +383,12 @@ section {
         margin-top: -45px;
         margin-left: 40px;
     }
+    a:hover {
+        border: 1px solid $main-black;
+        background: $main-black;
+        color: #fff;
+        transition: 0.5s;
+    }
 }
 
 .shop-online {
