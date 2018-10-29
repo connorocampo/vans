@@ -322,12 +322,24 @@ section {
     padding: 0 30px;
 }
 
+.shop-flex {
+    margin-top: 30px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    i {
+        color: $red;
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 750px) {
     section {
         margin-top: 0px;
     }
     .container {
-        flex-direction: column;   
+        flex-direction: column;
     }
 }
 
