@@ -345,7 +345,7 @@ section {
     font-weight: bold;
     font-family: 'Josefin Sans', arial;
     }
-    p {
+    p:nth-child(2) {
         color: $red;
         font-weight: bold;
         font-family: 'Josefin Sans', arial;
@@ -353,6 +353,25 @@ section {
     img {
         width: 300px;
         margin-top: -30px;
+    }
+    p:nth-child(4) {
+        font-weight: bold;
+        font-family: 'Josefin Sans', arial;
+        text-transform: capitalize;
+        text-align: left;
+        margin-top: -55px;
+        margin-left: 30px;
+    }
+    .price {
+        font-weight: bold;
+        color: $red;
+        text-align: left;
+        margin-left: 32px;
+    }
+    .line-through {
+        color: $grey;
+        text-decoration: line-through;
+        margin-left: 5px;
     }
 }
 
