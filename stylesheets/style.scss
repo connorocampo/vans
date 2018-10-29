@@ -237,9 +237,29 @@ $red: #FF3334;
     transition: 0.5s;
 }
 
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1550px) {
     .hero-nav ul {
-        margin-top: 1700px;
+        margin-top: -420px;
+        width: 500px;
+        a {
+            font-size: 13px;
+        }
+    }
+
+    .hero-text p:first-child {
+        margin-top: 90px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        color: #fff;
+        font-family: 'Josefin Sans', arial;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-left: 100px;
+        letter-spacing: 3px;;
     }
 }
 
