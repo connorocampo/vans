@@ -397,23 +397,50 @@ section {
     font-weight: bold;
     font-family: 'Josefin Sans', arial;
     }
-    i {
-
-    }
 }
 
-// @media screen and (max-width: 1045px)
+// @media screen and (max-width: 1000px) {
+//     .shoe-slider {
+//         background: pink;
+//         a {
+//             margin-left: 34px;
+//         }
+//         p:nth-child(4) {
+//             background: white
+//         }
+// }
 
-
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 1000px) {
     section {
         margin-top: 30px;
     }
-    .container {
+    section .container {
         flex-direction: column;
+        justify-content: center;
     }
-}
+    .shoe-slider {
+        a {
+            margin-left: 15%;
+        }
+        p:nth-child(4) {
+            background: white
+        }
+    }
+    .shop-online {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .shop-flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+
+    }
+
+}
 
 // footer
 footer {
