@@ -164,6 +164,14 @@ $red: #FF3334;
     .w3-display-container {
         min-width: 1000px;
     }
+
+    .w3-display-left {
+        margin-top: 155px;
+    }
+
+    .w3-display-right {
+        margin-top: 155px;
+    }
 }
 
 @media screen and (max-width: 1045px) {
@@ -253,13 +261,16 @@ $red: #FF3334;
     }
 
     .hero-text p {
-        color: #fff;
-        font-family: 'Josefin Sans', arial;
-        font-weight: bold;
         font-size: 40px;
-        text-transform: uppercase;
         margin-left: 100px;
-        letter-spacing: 3px;;
+    }
+
+    .hero-text a {
+        margin-left: 100px;
+    }
+
+    .bottom-text {
+        display: none !important;
     }
 }
 
