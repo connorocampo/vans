@@ -137,9 +137,9 @@ $red: #FF3334;
 }
 
 @media screen and (max-width: 750px) {
-    // .toolbar-area {
-    //     background: linear-gradient(#000 10%, #fff 50%, #fff 100%);
-    // }
+    .toolbar-area {
+        background: linear-gradient(#000 10%, #fff 50%, #fff 100%);
+    }
 }
 
 // hero slider
@@ -402,10 +402,12 @@ section {
     }
 }
 
+// @media screen and (max-width: 1045px)
 
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 1045px) {
     section {
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .container {
         flex-direction: column;
