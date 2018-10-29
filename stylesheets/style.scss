@@ -373,6 +373,16 @@ section {
         text-decoration: line-through;
         margin-left: 5px;
     }
+    a {
+        position: absolute;
+        font-weight: bold;
+        font-family: 'Josefin Sans', arial;
+        color: #fff;
+        background: $red;
+        padding: 13px 23px 10px 23px;
+        margin-top: -45px;
+        margin-left: 40px;
+    }
 }
 
 .shop-online {
