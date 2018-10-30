@@ -439,10 +439,11 @@ $red: #FF3334;
 
 //news events
 .news-events {
-    // background: yellow;
+    background: yellow;
     padding-top: 60px;
-    padding-left: 10%;
+    padding-left: 12%;
     height: auto;
+    display: flex;
     h1 {
         text-transform: uppercase;
         font-family: 'Josefin Sans', arial;
@@ -516,6 +517,13 @@ $red: #FF3334;
         }
     }
 }
+
+// bestsellers
+.bestsellers {
+    margin-top: -150px;
+    margin-left: 20%;
+}
+
 
 
 // footer
