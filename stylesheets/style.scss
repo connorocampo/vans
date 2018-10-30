@@ -444,6 +444,7 @@ $red: #FF3334;
     padding-left: 12%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     h1 {
         text-transform: uppercase;
         font-family: 'Josefin Sans', arial;
@@ -570,6 +571,13 @@ $red: #FF3334;
 .bestsellers a:hover {
     background: $main-black;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 1530px) {
+    .bestsellers {
+        margin-top: 50px;
+        width: 300px;
+    }
 }
 
 // footer
