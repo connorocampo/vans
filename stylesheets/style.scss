@@ -699,7 +699,7 @@ $red: #FF3334;
     }
     button {
         border: none;
-        height: 47px;
+        height: 45px;
         width: 130px;
         background: #D92B2B;
         color: #fff;
@@ -726,8 +726,9 @@ $red: #FF3334;
             margin-left: 30px;
         }
         button {
-            width: 110px;
-            font-size: 14px;
+            margin-left: -5px;
+            width: 95px;
+            font-size: 10px;
         }
     }
     .bottom-menu {
