@@ -440,6 +440,7 @@ $red: #FF3334;
 .news-events {
     padding-top: 60px;
     padding-left: 12%;
+    padding-bottom: 75px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -663,6 +664,41 @@ $red: #FF3334;
     }
     .down {
         margin-top: 250px;
+    }
+}
+
+.newsletter {
+    position: absolute;
+    background: #FF3333;
+    color: #fff;
+    height: 200px;
+    width: 650px;
+    form {
+        margin-right: auto;
+    }
+    label {
+        display: block;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+        font-family: 'Josefin Sans', arial;
+    }
+    input {
+        border: none;
+        height: 45px;
+        width: 325px;
+        font-family: 'Josefin Sans', arial;
+    }
+    button {
+        border: none;
+        height: 47px;
+        width: 130px;
+        background: #D92B2B;
+        color: #fff;
+        font-family: 'Josefin Sans', arial;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 5px;
     }
 }
 
