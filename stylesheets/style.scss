@@ -315,7 +315,6 @@ $red: #FF3334;
 .first {
     height: auto;
     margin-top: 120px;
-    background: pink;
 }
 
 .container {
@@ -439,7 +438,6 @@ $red: #FF3334;
 
 //news events
 .news-events {
-    background: yellow;
     padding-top: 60px;
     padding-left: 12%;
     height: auto;
@@ -626,6 +624,36 @@ $red: #FF3334;
     }
 }
 
+// bottom menu
+.bottom-menu {
+    height: 500px;
+    text-transform: uppercase;
+    background: #1A1A1A;
+    display: flex;
+    justify-content: space-evenly;
+    h2 {
+        color: #fff;
+        font-family: 'Josefin Sans', arial;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    li {
+        margin: 15px 0;
+    }
+    a {
+        color: #BFBFBF;
+        font-family: 'Josefin Sans', arial;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .active-b2b {
+        color: $red;
+    }
+    .bottom-menu-column {
+        margin-top: 90px;
+    }
+}
+
 // footer
 footer {
     height: 225px;
@@ -635,8 +663,6 @@ footer {
     text-align: center;
     font-weight: bold;
     letter-spacing: 2px;
-    margin-top: 100px;
-    margin-bottom: 0;
     img {
         margin-top: 60px;
         width: 150px;
