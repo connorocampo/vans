@@ -630,6 +630,7 @@ $red: #FF3334;
     text-transform: uppercase;
     background: #1A1A1A;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     h2 {
         color: #fff;
@@ -641,7 +642,7 @@ $red: #FF3334;
         margin: 15px 0;
     }
     a {
-        color: #BFBFBF;
+        color: #999999;
         font-family: 'Josefin Sans', arial;
         font-weight: bold;
         font-size: 12px;
@@ -651,6 +652,14 @@ $red: #FF3334;
     }
     .bottom-menu-column {
         margin-top: 90px;
+        img {
+            margin: 15px 3px;
+        }
+        i {
+            color: #999999;
+            font-size: 40px;
+            margin: 15px 5px;
+        }
     }
 }
 
@@ -668,6 +677,7 @@ footer {
         width: 150px;
     }
     p {
+        font-family: 'Josefin Sans', arial;
         margin-top: 10px;
     }
 }
