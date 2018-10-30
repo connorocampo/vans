@@ -525,7 +525,7 @@ $red: #FF3334;
 
 // bestsellers
 .bestsellers {
-    margin-top: -150px;
+    margin-top: -170px;
     margin-left: 20%;
 }
 
@@ -583,7 +583,7 @@ $red: #FF3334;
     }
 
     .bestsellers {
-        margin-top: 50px;
+        // margin-top: 50px;
         margin-left: 10%;
         width: 200px;
     }
@@ -599,6 +599,7 @@ $red: #FF3334;
     }
 
     .bestsellers {
+        margin-top: 50px;
         h1 {
             display: none;
         }
@@ -654,7 +655,7 @@ $red: #FF3334;
     .bottom-menu-column {
         margin-top: 90px;
         img {
-            margin: 15px 3px;
+            margin: 15px 1px 15px 0px;
         }
         i {
             color: #999999;
