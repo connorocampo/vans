@@ -389,7 +389,6 @@ section {
         margin-left: 60px;
     }
     a:hover {
-        border: 1px solid $main-black;
         background: $main-black;
         color: #fff;
         transition: 0.5s;
@@ -417,10 +416,10 @@ section {
         }
         .title {
             background: white;
-            margin-left: 6%;
+            margin-left: 2%;
         }
         .price {
-            margin-left: 6%;
+            margin-left: 2%;
         }
     }
     .shop-online {
