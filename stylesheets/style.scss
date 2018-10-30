@@ -554,6 +554,24 @@ $red: #FF3334;
     text-transform: uppercase;
 }
 
+.bestsellers a {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 300px;
+    color: #fff;
+    background: $red;
+    padding: 13px 23px 10px 23px;
+    font-family: 'Josefin Sans', arial;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.bestsellers a:hover {
+    background: $main-black;
+    transition: 0.5s;
+}
+
 // footer
 footer {
     height: 225px;
