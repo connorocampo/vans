@@ -649,6 +649,9 @@ $red: #FF3334;
         font-weight: bold;
         font-size: 12px;
     }
+    a:hover {
+        color: #fff;
+    }
     .active-b2b {
         color: $red;
     }
@@ -660,7 +663,10 @@ $red: #FF3334;
         i {
             color: #999999;
             font-size: 40px;
-            margin: 15px 5px;
+            margin: 15px 15px 0 0;
+        }
+        i:hover {
+            color: #fff;
         }
     }
     .down {
