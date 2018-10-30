@@ -468,6 +468,9 @@ $red: #FF3334;
 .article-container {
     margin-bottom: 30px;
     display: flex;
+    img {
+        margin-top: 5px;
+    }
 }
 
 .article-container .text {
