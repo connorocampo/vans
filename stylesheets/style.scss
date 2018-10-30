@@ -496,10 +496,22 @@ $red: #FF3334;
 .article-container .text a {
     color: $red;
     text-transform: uppercase;
-    // text-decoration: underline;
     font-family: 'Josefin Sans', arial;
     font-size: 13px;
     font-weight: 900 !important;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 750px) {
+    .news-events {
+        margin-left: -12px;
+        .see-all {
+            margin-left: 50px;
+        }
+        hr {
+            width: 300px;
+        }
+    }
 }
 
 
