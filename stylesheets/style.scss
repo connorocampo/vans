@@ -524,7 +524,35 @@ $red: #FF3334;
     margin-left: 20%;
 }
 
+.bestsellers h1 {
+    position: absolute;
+    color: #fff;
+    font-family: 'Josefin Sans', arial;
+    margin-top: -380px;
+    margin-left: 300px;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
 
+.bestsellers hr {
+    position: absolute;
+    margin-top: -285px;
+    margin-left: 300px;
+    border: 2px solid #fff;
+    width: 50px;
+}
+
+.bestsellers p {
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 300px;
+    color: #fff;
+    font-family: 'Josefin Sans', arial;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 // footer
 footer {
