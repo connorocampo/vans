@@ -462,6 +462,8 @@ footer {
 @media screen and (max-width: 750px) {
     .mySlides {
         width: 90% !important;
-        margin: 0 auto;
+    }
+    .w3-display-right {
+        margin-right: 40px;
     }
 }
