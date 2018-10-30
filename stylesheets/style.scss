@@ -709,7 +709,7 @@ $red: #FF3334;
     .newsletter {
         height: 130px;
         width: 100vw;
-        margin-top: -100px;
+        margin-top: -780px;
         margin-left: -10px;
         label {
             margin-top: 20px;
@@ -728,7 +728,14 @@ $red: #FF3334;
         margin-top: 100px;
         height: auto;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        .down {
+            margin-top: 20px;
+            // background: pink;
+        }
+    }
+    .bottom-menu-column {
+        margin-left: 25px;
     }
 }
 
