@@ -721,10 +721,11 @@ $red: #FF3334;
 
 @media screen and (max-width: 750px) {
     .newsletter {
+        // position: fixed;
         height: 130px;
-        min-width: auto;
+        width: 100%;
         margin-top: -500px;
-        margin-left: -10px;
+        margin-left: 0px;
         white-space: nowrap;
         label {
             margin-top: 20px;
