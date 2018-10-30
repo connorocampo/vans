@@ -696,7 +696,7 @@ $red: #FF3334;
     }
     input {
         border: none;
-        height: 45px;
+        height: 44px;
         width: 325px;
         font-family: 'Josefin Sans', arial;
         margin-left: 100px;
@@ -719,6 +719,7 @@ $red: #FF3334;
 @media screen and (max-width: 750px) {
     .newsletter {
         height: 130px;
+        width: 100vw;
         margin-top: -500px;
         margin-left: -10px;
         label {
