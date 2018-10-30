@@ -413,14 +413,14 @@ section {
     }
     .shoe-slider {
         a {
-            margin-left: 12%;
+            margin-left: 8%;
         }
         .title {
             background: white;
-            margin-left: 2%;
+            margin-left: 6%;
         }
         .price {
-            margin-left: 2%;
+            margin-left: 6%;
         }
     }
     .shop-online {
@@ -434,7 +434,6 @@ section {
         display: flex;
         flex-wrap: wrap;
         width: auto;
-
     }
 }
 
@@ -466,7 +465,6 @@ footer {
 
 @media screen and (max-width: 750px) {
     .w3-content {
-        // width: 90% !important;
         display: none;
     }
     .mobile-hero {
