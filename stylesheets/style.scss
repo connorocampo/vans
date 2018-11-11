@@ -590,7 +590,6 @@ $red: #FF3334;
     }
 
     .bestsellers {
-        // margin-top: 50px;
         margin-left: 10%;
         width: 200px;
     }
@@ -716,6 +715,10 @@ $red: #FF3334;
         letter-spacing: 1px;
         margin-left: 5px;
         cursor: pointer;
+    }
+    button:hover {
+        background: $main-black ;
+        transition: 0.5s;
     }
 }
 
